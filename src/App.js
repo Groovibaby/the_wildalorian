@@ -3,13 +3,17 @@ import './App.css';
 import Header from './components/Header';
 import Cockpit from './components/Cockpit';
 import YodaFinal from './components/YodaFInal';
+import YodaSentence from './components/YodaSentence';
 
 function App() {
   return (
     <div className="App">
+
       <Header />
       <Cockpit />
       <YodaFinal />
+      <YodaSentence />
+
     </div>
   );
 }
