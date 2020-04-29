@@ -10,7 +10,6 @@ class YodaFinal extends React.Component {
       super(props);
       this.state = {
         joke: {},
-        // show : true
       };
     }
     getJoke = () => {
