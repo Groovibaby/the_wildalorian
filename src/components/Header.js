@@ -1,6 +1,6 @@
 import React from 'react';
 import logoPng from "../img/logo-wildalorian3.png";
-import "../style/Header.css";
+import "../style.css";
 
  const Header = () => {
   return (
