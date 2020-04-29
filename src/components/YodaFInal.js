@@ -2,6 +2,9 @@ import React from 'react';
 import axios from 'axios'
 import Yoda from './Yoda';
 import GetJoke from './GetJoke';
+import OeufHaut from '../img/oeuf-haut.png';
+import OeufBas from '../img/oeuf-bas.png';
+import '../style.css';
 
 // import './YodaFinal.css'
 
@@ -12,7 +15,8 @@ class YodaFinal extends React.Component {
         joke: {},
       };
     }
-    getJoke() {
+    getJoke = () => {
+      const { show } = this.state;
       axios.get(`https://bridge.buddyweb.fr/api/blagues/blagues`)
         .then(res => res.data)
         .then(data => {
@@ -20,18 +24,25 @@ class YodaFinal extends React.Component {
           this.setState({
             joke: data[index],
           });
+          this.hideTimeout = setTimeout(() => this.setState({joke: ''}), 8000)
         });
     }
+    componentWillUnmount() {
+      clearTimeout(this.hideTimeout)
+    }
+  
   
     render() {
       return (
-        <div className="App">
+        <div className="YodaPostion">
             
-            <GetJoke joke={this.state.joke} />
+          <GetJoke joke={this.state.joke} />
             
             <div className="yoda-container">
               <div className="yoda">
+                  <img src={OeufHaut} className="OeufHaut" />
                   <Yoda />
+                  <img src={OeufBas} className="OeufBas" />
               </div>
               <div className="buttons-container">
                 <div class="button" id="button-3">
