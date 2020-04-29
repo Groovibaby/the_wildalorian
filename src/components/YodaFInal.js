@@ -24,7 +24,7 @@ class YodaFinal extends React.Component {
           this.setState({
             joke: data[index],
           });
-          this.hideTimeout = setTimeout(() => this.setState({joke: ''}), 6000)
+          this.hideTimeout = setTimeout(() => this.setState({joke: ''}), 8000)
         });
     }
     componentWillUnmount() {
