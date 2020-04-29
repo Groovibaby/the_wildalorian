@@ -45,16 +45,16 @@ class YodaFinal extends React.Component {
                   <img src={OeufBas} className="OeufBas" />
               </div>
               <div className="buttons-container">
-                <div class="button" id="button-3">
+                <div className="button" id="button-3">
                   <div id="circle"></div>
                   <a href="#" onClick={() => this.getJoke()}>Blague</a> 
                 </div>
-                <div class="button" id="button-7">
+                {/* <div className="button" id="button-7">
                   <div id="dub-arrow">
                     <img src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true" alt="" />
                   </div>
                   <a href="#">Let's Go!</a>
-                </div>
+                </div> */}
               </div>
             </div>
       </div>
