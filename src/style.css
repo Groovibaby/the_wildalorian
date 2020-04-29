@@ -176,21 +176,6 @@ a {
 /* YODA */ 
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
-body {
-  background: #F6FBFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
 @-webkit-keyframes blink {
   0% {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(237,225,209,.5)), color-stop(0, #000));
