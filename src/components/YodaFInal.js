@@ -10,9 +10,11 @@ class YodaFinal extends React.Component {
       super(props);
       this.state = {
         joke: {},
+        // show : true
       };
     }
-    getJoke() {
+    getJoke = () => {
+      const { show } = this.state;
       axios.get(`https://bridge.buddyweb.fr/api/blagues/blagues`)
         .then(res => res.data)
         .then(data => {
@@ -20,14 +22,19 @@ class YodaFinal extends React.Component {
           this.setState({
             joke: data[index],
           });
+          this.hideTimeout = setTimeout(() => this.setState({joke: ''}), 6000)
         });
     }
+    componentWillUnmount() {
+      clearTimeout(this.hideTimeout)
+    }
+  
   
     render() {
       return (
         <div className="App">
             
-            <GetJoke joke={this.state.joke} />
+          <GetJoke joke={this.state.joke} />
             
             <div className="yoda-container">
               <div className="yoda">
