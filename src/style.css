@@ -40,6 +40,29 @@
     z-index: 1;
 }
 
+/* POSITION DE YODA */
+
+.YodaPostion {
+  position: relative;
+  z-index: 0;
+}
+
+.OeufHaut {
+  position: absolute;
+  z-index: 0;
+}
+
+.YodaBody {
+  position: absolute;
+  z-index: 1;
+}
+
+.OeufBas {
+  position: absolute;
+  z-index: 2;
+  margin-top: 155px;
+}
+
 /* BOUTTONS */
 .yoda {
   display: flex;
@@ -159,6 +182,7 @@ a {
 .buttons-container {
   display: flex;
   justify-content: center;
+  margin-top: 330px;
 }
 
 /* JOKE */
