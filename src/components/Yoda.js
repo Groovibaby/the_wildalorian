@@ -1,9 +1,10 @@
 import React from 'react';
 // import './Yoda.css';
+import '../style.css';
 
 function Yoda() {
   return (
-    <div className="App">
+    <div className="YodaBody">
               <div id="y-body">
           <div id="y-head">
             <div id="left-eye"></div>
