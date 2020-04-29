@@ -1,4 +1,5 @@
 import React from 'react';
+import './YodaTalk.css'
 
 
 class YodaTalk extends React.Component {
@@ -50,7 +51,7 @@ class YodaTalk extends React.Component {
             render() {
                 return (
                     <div className='Container'>
-                    <form onSubmit={this.submitSentence}>
+                    <form onSubmit={this.submitSentence} className="yoda-form">
                         <textarea
                                 type= 'text'
                                 id= 'text'
