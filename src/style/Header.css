@@ -1,0 +1,14 @@
+.Header {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: url(../img/bg.jpg);
+  }
+
+  .Header .Header_logo {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+
+   }
+   
