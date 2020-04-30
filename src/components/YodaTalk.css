@@ -1,9 +1,45 @@
-.yoda-form textarea{
-    background-color: green;
-    color: black;
-    cursor: pointer;
+.Container {
+    display: flex;
+    
+    align-items: center;
 }
 
-input {
+.yoda-form {
+    position: absolute;
+    right: 500px;
+    top: 600px;
+}
+
+
+.yoda-form input {
+    background-color: rgb(27, 108, 201);
+    color: white;
+    border-radius: 5px;
+    outline: none;
     
+    
+    
+}
+
+.input-text {
+
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 300px;
+    
+}
+
+.result {
+    border: white solid 2px;
+    padding: 20px;
+    position:absolute;
+    top: 250px;
+    left: 250px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
 }
