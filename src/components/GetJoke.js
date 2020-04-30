@@ -12,7 +12,6 @@ function GetJoke ({joke}) {
                         border: "solid",
                         border: "solid",
                         borderRadius: "16px",
-                        wordSpacing: "1px",
                         fontSize: "19px",
         }}>{joke.blagues}</p>
         </div>
