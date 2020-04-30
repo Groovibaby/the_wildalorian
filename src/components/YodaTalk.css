@@ -12,17 +12,11 @@
 
 
 .yoda-form input {
-    background-color: rgb(27, 108, 201);
-    color: white;
     border-radius: 5px;
     outline: none;
-    
-    
-    
 }
 
 .input-text {
-
     border: none;
     background-color: white;
     border-radius: 5px;
@@ -30,7 +24,15 @@
     outline: none;
     margin-bottom: 10px;
     width: 300px;
-    
+}
+
+.input-button {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgb(194, 192, 89);
+    border: none;
+    padding: 15px;
 }
 
 .result {

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../style.css';
-import YodaFInal from './YodaFInal'
-import Buttons from "./Buttons"
+import YodaFInal from './YodaFInal';
 import YodaTalk from './YodaTalk';
 
 class Cockpit extends React.Component {
@@ -62,9 +61,7 @@ class Cockpit extends React.Component {
                         <button className="ButtonDeskBoard_4" onClick={this.handleClick4}>Random</button>
                     </div>
                 </div>
-                {/* <Buttons /> */}
                 < YodaTalk />
-                <Buttons />
             </div>
         </section>
         </>
