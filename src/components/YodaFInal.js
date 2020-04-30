@@ -24,7 +24,7 @@ class YodaFinal extends React.Component {
           this.setState({
             joke: data[index],
           });
-          this.hideTimeout = setTimeout(() => this.setState({joke: ''}), 8000)
+          this.hideTimeout = setTimeout(() => this.setState({joke: ''}), 998000)
         });
     }
     componentWillUnmount() {
@@ -34,9 +34,12 @@ class YodaFinal extends React.Component {
   
     render() {
       return (
+        <div className="test"> 
+        <GetJoke joke={this.state.joke} />
+       
         <div className="YodaPostion">
             
-          <GetJoke joke={this.state.joke} />
+         
             
             <div className="yoda-container">
               <div className="yoda">
@@ -56,6 +59,7 @@ class YodaFinal extends React.Component {
                   <a href="#">Let's Go!</a>
                 </div> */}
               </div>
+            </div>
             </div>
       </div>
       )

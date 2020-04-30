@@ -15,6 +15,8 @@ function App() {
       <Cockpit />
       <YodaTalk /> 
       <Footer /> 
+      
+
     </div>
   );
 }
