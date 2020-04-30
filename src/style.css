@@ -29,49 +29,64 @@
   display: flex;
   cursor: pointer;
 }
+.ButtonDeskBoard_1:hover {
+  color: gray;
+  transition: all .35s ease-Out;
+  background-color: whitesmoke;
+}
 
 .ButtonDeskBoard_1{
   margin-left: 400px;
   color: #fff;
   cursor: pointer; 
   float:left;
-  background-color: rgb(185, 19, 19);
+  background-color: #7F4B47;
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
   font-weight: bold;  
   border-width: 0 4px 5px 0;
   border-radius: 5px;
-  border-color: transparent rgb(201, 57, 57) rgb(201, 13, 13) transparent;
+  border-color: transparent #7F4B47 #7F4B47 transparent;
   background-clip: padding-box;  
   
 }
-
+.ButtonDeskBoard_2:hover {
+  color: black;
+  transition: all .35s ease-Out;
+  background-color: yellow;
+}
 .ButtonDeskBoard_2{
   margin-left: 100px;
-  color: #040c01;
+  color: yellow;
   cursor: pointer;
   float:left;
-  background-color: rgb(176, 187, 27);
+  background-color: black;
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
   font-weight: bold;  
   border-width: 0 4px 5px 0;
   border-radius: 5px;
-  border-color: transparent rgb(176, 187, 27) rgb(176, 187, 27) transparent;
-  background-clip: padding-box;  
+  border-color: transparent black black transparent;
+  background-clip: padding-box; 
+  outline: none; 
 }
 .ButtonDeskBoard_3_4{
   display: flex;
   cursor: pointer;
+}
+.ButtonDeskBoard_3:hover {
+  color: whitesmoke;
+  transition: all .35s ease-Out;
+  background-color: rgb(19, 30, 185);
 }
 .ButtonDeskBoard_3{
   margin-right: 100px;
   color: #fff;
   cursor: pointer; 
   float:left;
-  background-color: rgb(19, 30, 185);
+  background-color: #7F4B47;
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
@@ -79,15 +94,20 @@
   border-width: 0 4px 5px 0;
   border-radius: 5px;
   border-color: transparent rgb(24, 42, 143) rgb(13, 24, 124) transparent;
-  background-clip: padding-box; 
+  background-clip: padding-box;
+  outline: none;  
 }
-
+.ButtonDeskBoard_4:hover {
+  color: rgb(243, 237, 237);
+  transition: all .35s ease-Out;
+  background-color: rgb(22, 141, 85);
+}
 .ButtonDeskBoard_4{
   margin-right: 400px;
   color: #fff;
   cursor: pointer; 
   float:left;
-  background-color: rgb(22, 141, 85);
+  background-color: #7F4B47;
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
@@ -95,7 +115,8 @@
   border-width: 0 4px 5px 0;
   border-radius: 5px;
   border-color: transparent rgb(20, 134, 58) rgb(13, 128, 74) transparent;
-  background-clip: padding-box; 
+  background-clip: padding-box;
+  outline: none; 
 }
 
 

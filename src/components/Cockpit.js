@@ -53,7 +53,7 @@ class Cockpit extends React.Component {
                 <YodaFInal />
                 <div className="ButtonDeskBoard">
                     <div className="ButtonDeskBoard_1_2">
-                        <button className="ButtonDeskBoard_1" onClick={this.handleClick1}>To the moon</button>
+                        <button className="ButtonDeskBoard_1" onClick={this.handleClick1}>To the Moon</button>
                         <button className="ButtonDeskBoard_2" onClick={this.handleClick2}>Light Speed</button>
                     </div>
                     <div className="ButtonDeskBoard_3_4">
