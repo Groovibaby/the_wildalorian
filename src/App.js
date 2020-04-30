@@ -13,7 +13,6 @@ function App() {
 
       <Header />
       <Cockpit />
-      <YodaTalk /> 
       <Footer /> 
       
 

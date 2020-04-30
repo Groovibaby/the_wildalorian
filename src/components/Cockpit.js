@@ -2,6 +2,7 @@ import React from 'react';
 import '../style.css';
 import YodaFInal from './YodaFInal'
 import Buttons from "./Buttons"
+import YodaTalk from './YodaTalk';
 
 class Cockpit extends React.Component {
     constructor(props) {
@@ -20,6 +21,7 @@ class Cockpit extends React.Component {
             </div>
             <div className="Cockpit">
                 <YodaFInal />
+                < YodaTalk />
                 <Buttons />
             </div>
         </section>

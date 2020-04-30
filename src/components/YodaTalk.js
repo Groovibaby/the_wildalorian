@@ -18,7 +18,6 @@ class YodaTalk extends React.Component {
                     [e.target.name]: e.target.value,
                 });
             }
- 
                 
             submitSentence = (e) => {
              e.preventDefault();   
@@ -39,16 +38,19 @@ class YodaTalk extends React.Component {
                 return (
                     <div className='Container'>
                     <form onSubmit={this.submitSentence} className="yoda-form">
-                        <textarea
-                                type= 'text'
-                                id= 'text'
-                                name="text"
-                                onChange={this.onChange}
-                                value= {this.state.text}>
-                            </textarea>
+                        <input
+                            type= 'text'
+                            placeholder='Here, you can write, young padawan'
+                            id= 'text'
+                            name="text"
+                            onChange={this.onChange}
+                            value= {this.state.text}
+                            className="input-text"
+                            />
+                            <br/>
                             <input type='submit' value='Translate you can!'/>
                     </form>
-                    <div style={{ color: "black"}}>{this.state.translated}</div>
+                    <div style={{ color: "white"}} className='result'><bold>{this.state.translated}</bold></div>
                         
                     </div>
                 )

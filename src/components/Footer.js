@@ -12,7 +12,7 @@ class Footer extends React.Component {
                 <div className='footer-link'>
                     <a href="#">The flight Crew</a>
                     <a href="#">Travel!</a>
-                    <a href="#">Réalisé par Thomas, François, Mickaël et Benoit</a>
+                    <a href="#">Réalisé par Thomas, François, Michaël et Benoit</a>
                     <a href="#">Wild Code School</a>
                 </div>
             </div>
