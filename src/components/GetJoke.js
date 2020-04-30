@@ -5,15 +5,7 @@ function GetJoke ({joke}) {
 
     return (
         <div className="GetJoke">
-            <p style={{color: "white",
-                        backgroundColor: "green",
-                        marginRight: "35%",
-                        marginLeft: "35%",
-                        border: "solid",
-                        border: "solid",
-                        borderRadius: "16px",
-                        fontSize: "19px",
-        }}>{joke.blagues}</p>
+            {joke.blagues}
         </div>
     );
 };

@@ -58,7 +58,7 @@
 .YodaPostion {
   position: absolute;
   z-index: 0;
-  left: 300px;
+  left: 276px;
   top: 400px;
 }
 
@@ -147,9 +147,9 @@
   display: inline-flex;
   height: 40px;
   width: 100px;
-  border: 2px solid #BFC0C0;
+  border: 2px solid rgb(194, 192, 89);
   margin: 20px 20px 20px 20px;
-  color: #BFC0C0;
+  color: rgb(27, 148, 23);
   text-transform: uppercase;
   text-decoration: none;
   font-size: .8em;
@@ -157,10 +157,11 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 a {
-  color: #BFC0C0;
+  color: rgb(34, 68, 33);
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -217,6 +218,7 @@ a {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  background-color: rgb(194, 192, 89);
 }
 
 #button-3 a {
@@ -230,7 +232,7 @@ a {
   opacity: 0;
   line-height: 40px;
   border-radius: 50%;
-  background: #BFC0C0;
+  background: rgb(27, 148, 23);
   position: absolute;
   transition: all .5s ease-Out;
   top: 20px;
@@ -246,7 +248,7 @@ a {
 }
 
 #button-3:hover a {
-  color: #2D3142;
+  color: rgb(221, 223, 114);
 }
 
 .yoda-container {
@@ -256,26 +258,25 @@ a {
 
 .buttons-container {
   display: flex;
-  justify-content: center;
   margin-top: 330px;
 }
 
 /* JOKE */
-/* .wild-yoda .hidden {
-  visibility: hidden;
+.test {
+  margin-top: 20px;
 }
-.wild-yoda:visited .hidden {
-  color: whitesmoke;
-  border: solid 2px rgb(49, 248, 49);
-  background-color: green;
-  /* padding: 15px; */
-  /* margin-right: 25%;
-  margin-left: 25%;
-  visibility: visible;
-
-
-} */ 
-
+.GetJoke  {
+          background-Color: green;
+           margin-right: 35%;
+           margin-Left: 35%;
+           border: solid 2px whitesmoke;
+           border-Radius: 16px;
+           font-Size: 19px;
+           padding: 10px;
+           color: whitesmoke;
+           transition: all .5s ease-Out;
+           
+}
 /* YODA */ 
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
