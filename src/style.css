@@ -14,7 +14,89 @@
     margin: 10px;
 }
 
+/* HEAD */
 
+
+.ButtonDeskBoard {
+  padding-top: 820px;
+  margin-bottom: 20px;
+  display: flex;
+   justify-content: space-between;
+ 
+}
+
+.ButtonDeskBoard_1_2{
+  display: flex;
+  cursor: pointer;
+}
+
+.ButtonDeskBoard_1{
+  margin-left: 400px;
+  color: #55b42c;
+  cursor: pointer; 
+  float:left;
+  background-color: rgb(185, 19, 19);
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  font-weight: bold;  
+  border-width: 0 4px 5px 0;
+  border-radius: 5px;
+  border-color: transparent rgb(201, 57, 57) rgb(201, 13, 13) transparent;
+  background-clip: padding-box;  
+  
+}
+
+.ButtonDeskBoard_2{
+  margin-left: 100px;
+  color: #040c01;
+  cursor: pointer;
+  float:left;
+  background-color: rgb(176, 187, 27);
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  font-weight: bold;  
+  border-width: 0 4px 5px 0;
+  border-radius: 5px;
+  border-color: transparent rgb(176, 187, 27) rgb(176, 187, 27) transparent;
+  background-clip: padding-box;  
+}
+.ButtonDeskBoard_3_4{
+  display: flex;
+  cursor: pointer;
+}
+.ButtonDeskBoard_3{
+  margin-right: 100px;
+  color: #b84908;
+  cursor: pointer; 
+  float:left;
+  background-color: rgb(19, 30, 185);
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  font-weight: bold;  
+  border-width: 0 4px 5px 0;
+  border-radius: 5px;
+  border-color: transparent rgb(24, 42, 143) rgb(13, 24, 124) transparent;
+  background-clip: padding-box; 
+}
+
+.ButtonDeskBoard_4{
+  margin-right: 400px;
+  color: #040c01;
+  cursor: pointer; 
+  float:left;
+  background-color: rgb(22, 141, 85);
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  font-weight: bold;  
+  border-width: 0 4px 5px 0;
+  border-radius: 5px;
+  border-color: transparent rgb(20, 134, 58) rgb(13, 128, 74) transparent;
+  background-clip: padding-box; 
+}
 
 
 
