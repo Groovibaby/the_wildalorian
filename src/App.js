@@ -11,7 +11,7 @@ function App() {
 
       <Header />
       <Cockpit />
-      <YodaTalk />
+      <YodaSentence />
 
     </div>
   );
