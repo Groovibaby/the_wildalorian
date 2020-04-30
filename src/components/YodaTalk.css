@@ -36,8 +36,7 @@
 }
 
 .result {
-    border: white solid 2px;
-    padding: 20px;
+    border: black;
     position:absolute;
     top: 250px;
     left: 250px;
