@@ -1,5 +1,6 @@
 import React from 'react';
-import './YodaTalk.css'
+import './YodaTalk.css';
+import axios from 'axios';
 
 
 class YodaTalk extends React.Component {
@@ -10,42 +11,28 @@ class YodaTalk extends React.Component {
                 translated:"",
             }
             this.onChange = this.onChange.bind(this);
-            this.submitForm = this.submitSentence.bind(this);
+            this.submitSentence = this.submitSentence.bind(this);
         }
             onChange(e) {
                 this.setState({
                     [e.target.name]: e.target.value,
                 });
             }
-            // submitSentence = (e) => {
-            //     e.preventDefault();
-            //     const url = 'https://yodish.p.rapidapi.com/yoda.json?text=Master%20Obiwan%20has%20lost%20a%20planet.'
-            //     axios.post(url, this.state.yoda)
-            //     // .then(res => res.data)//
-            //     .then(res => {console.log(res)});
  
                 
-            // }
             submitSentence = (e) => {
              e.preventDefault();   
-            fetch("https://yodish.p.rapidapi.com", {
-                    method: "POST",
-                    headers: {
-                        "x-rapidapi-host": "yodish.p.rapidapi.com/yoda.json",
-                        "x-rapidapi-key": "6b8413b124mshe9e6d8958f14e23p1ad49ejsn15df4a70f0af",
-                        "content-type": "application/x-www-form-urlencoded"
-                    },
-                    body: {
-                        "text": this.state.text
-                    }
-                })
-                .then(response => {
-                    console.log(response);
-                })
-                .catch(err => {
-                    console.log(err);
-                });
+
+                axios.post(`https://yodish.p.rapidapi.com/yoda.json?text=${this.state.text}`, {}, {headers :  {
+                    "X-Rapidapi-Host": "yodish.p.rapidapi.com",
+                    "X-Rapidapi-Key": "6b8413b124mshe9e6d8958f14e23p1ad49ejsn15df4a70f0af",
+                    "Content-Type": "application/x-www-form-urlencoded"
+                }})
+                .then(response => response.data.contents.translated)
+                .then(data => this.setState({ translated: data}))
             }
+
+                
     
         
             render() {
@@ -61,6 +48,7 @@ class YodaTalk extends React.Component {
                             </textarea>
                             <input type='submit' value='Translate you can!'/>
                     </form>
+                    <div style={{ color: "black"}}>{this.state.translated}</div>
                         
                     </div>
                 )

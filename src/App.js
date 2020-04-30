@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Cockpit from './components/Cockpit';
 import YodaSentence from './components/YodaSentence';
+import Footer from './components/Footer';
+import YodaTalk from './components/YodaTalk';
 
 
 function App() {
@@ -11,8 +13,8 @@ function App() {
 
       <Header />
       <Cockpit />
-      <YodaTalk />
-
+      <YodaTalk /> 
+      <Footer /> 
     </div>
   );
 }
