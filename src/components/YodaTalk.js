@@ -48,7 +48,7 @@ class YodaTalk extends React.Component {
                             className="input-text"
                             />
                             <br/>
-                            <input type='submit' value='Translate you can!'/>
+                            <input type='submit' className="input-button" value='TRANSLATE YOU CAN !'/>
                     </form>
                     <div style={{ color: "white"}} className='result'><bold>{this.state.translated}</bold></div>
                         
