@@ -377,7 +377,7 @@ a {
            border: solid 2px whitesmoke;
            border-Radius: 16px;
            font-Size: 19px;
-           padding: 10px;
+           /* padding: 10px; */
            color: whitesmoke;
            transition: all .5s ease-Out;
            

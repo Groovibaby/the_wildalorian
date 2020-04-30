@@ -58,7 +58,7 @@ class Cockpit extends React.Component {
                     </div>
                     <div className="ButtonDeskBoard_3_4">
                         <button className="ButtonDeskBoard_3" onClick={this.handleClick3}>Vesoul</button>
-                        <button className="ButtonDeskBoard_4" onClick={this.handleClick4}>Random</button>
+                        <button className="ButtonDeskBoard_4" onClick={this.handleClick4}>Automatic Pilot</button>
                     </div>
                 </div>
                 < YodaTalk />

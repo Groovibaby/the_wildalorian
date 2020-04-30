@@ -50,7 +50,7 @@ class YodaFinal extends React.Component {
               <div className="buttons-container">
                 <div className="button" id="button-3">
                   <div id="circle"></div>
-                  <a href="#" onClick={() => this.getJoke()}>Blague</a> 
+                  <a href="#" onClick={() => this.getJoke()}>Jokes</a> 
                 </div>
                 {/* <div className="button" id="button-7">
                   <div id="dub-arrow">
